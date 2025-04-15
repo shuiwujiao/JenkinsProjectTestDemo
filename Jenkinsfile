@@ -18,7 +18,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('part2') {
       steps {
         sh '''ls
 '''
