@@ -14,14 +14,15 @@ pipeline {
 
       }
       steps {
-        sh 'ls'
+        sh '''ls
+pwd'''
       }
     }
 
     stage('part2') {
       steps {
         sh '''ls
-'''
+pwd'''
       }
     }
 
